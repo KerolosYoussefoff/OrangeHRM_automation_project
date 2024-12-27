@@ -16,12 +16,10 @@ public class P03_adminPage {
     By addButton = By.xpath("//*[@class=\"oxd-button oxd-button--medium oxd-button--secondary\" and contains(., \"Add\")]");
     // function to get the number of records
     public String getNumberOfRecords(){
-        final String nofRecords = driver.element().getText(numOfRecords).replaceAll("[^0-9]]+","");
-        return nofRecords;
+        return driver.element().getText(numOfRecords).replaceAll("[^0-9]]+","");
     }
     public P04_addRequestPage clickOnAdd(){
         driver.element().click(addButton);
-
         return new P04_addRequestPage (driver);
     }
 }
