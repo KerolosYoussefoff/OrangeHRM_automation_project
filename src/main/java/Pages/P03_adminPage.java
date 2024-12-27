@@ -19,8 +19,10 @@ public class P03_adminPage {
         final String nofRecords = driver.element().getText(numOfRecords).replaceAll("[^0-9]]+","");
         return nofRecords;
     }
-    public void clickOnAdd(){
+    public P04_addRequestPage clickOnAdd(){
         driver.element().click(addButton);
+
+        return new P04_addRequestPage (driver);
     }
 }
 

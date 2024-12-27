@@ -14,8 +14,9 @@ public class P02_homePage {
     // locators
     By adminTab = By.xpath("//*[@href=\"/web/index.php/admin/viewAdminModule\"]");    // there is another locator //*[@href="/web/index.php/admin/viewAdminModule"]//span[contains(. , "admin")]
 
-    public void selectAdminFromPanel(){
+    public P03_adminPage selectAdminFromPanel(){
         driver.element().click(adminTab);
+        return new P03_adminPage(driver) ;
     }
 
 }

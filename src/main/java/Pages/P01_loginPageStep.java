@@ -16,10 +16,11 @@ public class P01_loginPageStep {
    private final By passwordInput = By.xpath("//*[@type=\"password\"]");
    private final By submitBtn = By.xpath("//*[@type=\"submit\"]");
     //   function for login page to log in
-   public void loginSteps (String userName , String password){
+   public P02_homePage loginSteps (String userName , String password){
        driver.element().type(userNameInput,"Admin")
                .and().type(passwordInput,"admin123")
                .and().element().click(submitBtn);
+       return  new P02_homePage(driver);
    }
 
 }

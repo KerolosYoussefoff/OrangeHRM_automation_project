@@ -12,7 +12,7 @@ public class P04_addRequestPage {
     }
 
     // locators
-    By userRoleDropDown = By.xpath("//*[@class=\"oxd-select-text oxd-select-text--active\" and contains(.,\"Select\")] ");
+    By userRoleDropDown = By.xpath();
 
 
     // function to get the number of records
