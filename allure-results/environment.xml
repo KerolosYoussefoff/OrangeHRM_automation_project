@@ -1,170 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <environment>
   <parameter>
-    <key>java.specification.version</key>
-    <value>23</value>
-  </parameter>
-  <parameter>
-    <key>java.vendor.url</key>
-    <value>https://java.oracle.com/</value>
-  </parameter>
-  <parameter>
-    <key>sun.boot.library.path</key>
-    <value>C:\Program Files\Java\jdk-23\bin</value>
-  </parameter>
-  <parameter>
-    <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket62900 @w@C:\Users\ADMIN\AppData\Local\Temp\idea_working_dirs_testng1.tmp -temp C:\Users\ADMIN\AppData\Local\Temp\idea_testng1.tmp</value>
-  </parameter>
-  <parameter>
-    <key>jdk.debug</key>
-    <value>release</value>
-  </parameter>
-  <parameter>
-    <key>java.vm.specification.vendor</key>
-    <value>Oracle Corporation</value>
-  </parameter>
-  <parameter>
-    <key>java.specification.name</key>
-    <value>Java Platform API Specification</value>
-  </parameter>
-  <parameter>
-    <key>rootLogger</key>
-    <value>debug, STDOUT, LOGFILE</value>
-  </parameter>
-  <parameter>
-    <key>java.runtime.version</key>
-    <value>23.0.1+11-39</value>
-  </parameter>
-  <parameter>
-    <key>appender.file.fileName</key>
-    <value>target/logs/log4j.log</value>
-  </parameter>
-  <parameter>
-    <key>testSuiteTimeout</key>
-    <value>1440</value>
-  </parameter>
-  <parameter>
-    <key>appender.file.filter.threshold.type</key>
-    <value>ThresholdFilter</value>
-  </parameter>
-  <parameter>
-    <key>java.io.tmpdir</key>
-    <value>C:\Users\ADMIN\AppData\Local\Temp\</value>
-  </parameter>
-  <parameter>
-    <key>java.version</key>
-    <value>23.0.1</value>
-  </parameter>
-  <parameter>
-    <key>java.vm.specification.name</key>
-    <value>Java Virtual Machine Specification</value>
-  </parameter>
-  <parameter>
-    <key>native.encoding</key>
-    <value>Cp1252</value>
-  </parameter>
-  <parameter>
-    <key>java.library.path</key>
-    <value>C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C;C:\Program Files\Microchip\xc8\v2.45\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-23;;.</value>
-  </parameter>
-  <parameter>
-    <key>CUCUMBER_PUBLISH_ENABLED</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>java.vendor</key>
-    <value>Oracle Corporation</value>
-  </parameter>
-  <parameter>
-    <key>cucumber.features</key>
-    <value>src/test/resources</value>
-  </parameter>
-  <parameter>
-    <key>user.timezone</key>
-    <value>Africa/Cairo</value>
-  </parameter>
-  <parameter>
-    <key>java.vm.specification.version</key>
-    <value>23</value>
-  </parameter>
-  <parameter>
-    <key>user.home</key>
-    <value>C:\Users\ADMIN</value>
-  </parameter>
-  <parameter>
-    <key>appender.console.layout.disableAnsi</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>os.version</key>
-    <value>10.0</value>
-  </parameter>
-  <parameter>
-    <key>java.vm.name</key>
-    <value>Java HotSpot(TM) 64-Bit Server VM</value>
-  </parameter>
-  <parameter>
-    <key>os.arch</key>
-    <value>amd64</value>
-  </parameter>
-  <parameter>
-    <key>appender.file.type</key>
-    <value>File</value>
-  </parameter>
-  <parameter>
-    <key>setVerbose</key>
-    <value>1</value>
-  </parameter>
-  <parameter>
-    <key>setParallel</key>
-    <value>NONE</value>
-  </parameter>
-  <parameter>
-    <key>setParallelMode</key>
-    <value>STATIC</value>
-  </parameter>
-  <parameter>
-    <key>setPreserveOrder</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>disableLogging</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>java.vm.compressedOopsMode</key>
-    <value>32-bit</value>
-  </parameter>
-  <parameter>
-    <key>sun.java.launcher</key>
-    <value>SUN_STANDARD</value>
-  </parameter>
-  <parameter>
-    <key>user.country</key>
-    <value>US</value>
-  </parameter>
-  <parameter>
-    <key>cucumber.snippet-type</key>
-    <value>underscore</value>
-  </parameter>
-  <parameter>
-    <key>java.runtime.name</key>
-    <value>Java(TM) SE Runtime Environment</value>
-  </parameter>
-  <parameter>
-    <key>logger.app.name</key>
-    <value>org.apache.http.impl.client</value>
-  </parameter>
-  <parameter>
-    <key>appender.file.filter.threshold.level</key>
-    <value>debug</value>
-  </parameter>
-  <parameter>
-    <key>setDataProviderThreadCount</key>
-    <value>1</value>
-  </parameter>
-  <parameter>
     <key>appender.console.type</key>
     <value>Console</value>
   </parameter>
@@ -175,6 +11,10 @@
   <parameter>
     <key>appender.console.layout.pattern</key>
     <value>%highlight{[%p]}{FATAL=red blink, ERROR=red bold, WARN=yellow bold, INFO=fg_#0060a8 bold, DEBUG=fg_#43b02a bold, TRACE=black} %style{%m }%style{| %-logger}{bright_black} %style{- %-thread}{bright_black} %style{- %d{hh:mm:ss a}}{bright_black} %n</value>
+  </parameter>
+  <parameter>
+    <key>java.specification.version</key>
+    <value>21</value>
   </parameter>
   <parameter>
     <key>sun.cpu.isalist</key>
@@ -189,8 +29,24 @@
     <value>1048576</value>
   </parameter>
   <parameter>
+    <key>java.vendor.url</key>
+    <value>https://java.oracle.com/</value>
+  </parameter>
+  <parameter>
     <key>logger.app.level</key>
     <value>WARN</value>
+  </parameter>
+  <parameter>
+    <key>sun.boot.library.path</key>
+    <value>C:\Program Files\Java\jdk-21\bin</value>
+  </parameter>
+  <parameter>
+    <key>sun.java.command</key>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket57997 @w@C:\Users\ADMIN\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\ADMIN\AppData\Local\Temp\idea_testng.tmp</value>
+  </parameter>
+  <parameter>
+    <key>jdk.debug</key>
+    <value>release</value>
   </parameter>
   <parameter>
     <key>appender.console.filter.threshold.type</key>
@@ -206,11 +62,23 @@
   </parameter>
   <parameter>
     <key>java.home</key>
-    <value>C:\Program Files\Java\jdk-23</value>
+    <value>C:\Program Files\Java\jdk-21</value>
   </parameter>
   <parameter>
     <key>testng.dtd.http</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.specification.vendor</key>
+    <value>Oracle Corporation</value>
+  </parameter>
+  <parameter>
+    <key>java.specification.name</key>
+    <value>Java Platform API Specification</value>
+  </parameter>
+  <parameter>
+    <key>rootLogger</key>
+    <value>debug, STDOUT, LOGFILE</value>
   </parameter>
   <parameter>
     <key>appender.file.layout.type</key>
@@ -221,12 +89,56 @@
     <value>HotSpot 64-Bit Tiered Compilers</value>
   </parameter>
   <parameter>
+    <key>java.runtime.version</key>
+    <value>21.0.5+9-LTS-239</value>
+  </parameter>
+  <parameter>
+    <key>appender.file.fileName</key>
+    <value>target/logs/log4j.log</value>
+  </parameter>
+  <parameter>
+    <key>testSuiteTimeout</key>
+    <value>1440</value>
+  </parameter>
+  <parameter>
     <key>file.encoding</key>
     <value>UTF-8</value>
   </parameter>
   <parameter>
+    <key>appender.file.filter.threshold.type</key>
+    <value>ThresholdFilter</value>
+  </parameter>
+  <parameter>
+    <key>java.io.tmpdir</key>
+    <value>C:\Users\ADMIN\AppData\Local\Temp\</value>
+  </parameter>
+  <parameter>
+    <key>java.version</key>
+    <value>21.0.5</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.specification.name</key>
+    <value>Java Virtual Machine Specification</value>
+  </parameter>
+  <parameter>
+    <key>native.encoding</key>
+    <value>Cp1252</value>
+  </parameter>
+  <parameter>
+    <key>java.library.path</key>
+    <value>C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C;C:\Program Files\Microchip\xc8\v2.45\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-23;;.</value>
+  </parameter>
+  <parameter>
+    <key>CUCUMBER_PUBLISH_ENABLED</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
     <key>stderr.encoding</key>
     <value>UTF-8</value>
+  </parameter>
+  <parameter>
+    <key>java.vendor</key>
+    <value>Oracle Corporation</value>
   </parameter>
   <parameter>
     <key>cucumber.execution.strict</key>
@@ -237,12 +149,28 @@
     <value>UnicodeLittle</value>
   </parameter>
   <parameter>
+    <key>cucumber.features</key>
+    <value>src/test/resources</value>
+  </parameter>
+  <parameter>
     <key>appender.console.filter.threshold.level</key>
     <value>info</value>
   </parameter>
   <parameter>
+    <key>user.timezone</key>
+    <value>Africa/Cairo</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.specification.version</key>
+    <value>21</value>
+  </parameter>
+  <parameter>
     <key>os.name</key>
     <value>Windows 10</value>
+  </parameter>
+  <parameter>
+    <key>user.home</key>
+    <value>C:\Users\ADMIN</value>
   </parameter>
   <parameter>
     <key>setThreadCount</key>
@@ -265,6 +193,10 @@
     <value>PatternLayout</value>
   </parameter>
   <parameter>
+    <key>appender.console.layout.disableAnsi</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
     <key>cucumber.plugin</key>
     <value>pretty, json:allure-results/cucumber.json, html:allure-results/cucumberReport.html, com.shaft.listeners.CucumberTestRunnerListener</value>
   </parameter>
@@ -277,12 +209,36 @@
     <value>;</value>
   </parameter>
   <parameter>
+    <key>os.version</key>
+    <value>10.0</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.name</key>
+    <value>Java HotSpot(TM) 64-Bit Server VM</value>
+  </parameter>
+  <parameter>
     <key>cucumber.ansi-colors.disabled</key>
     <value>false</value>
   </parameter>
   <parameter>
+    <key>os.arch</key>
+    <value>amd64</value>
+  </parameter>
+  <parameter>
     <key>cucumber.execution.order</key>
     <value>lexical</value>
+  </parameter>
+  <parameter>
+    <key>appender.file.type</key>
+    <value>File</value>
+  </parameter>
+  <parameter>
+    <key>setVerbose</key>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <key>setParallel</key>
+    <value>NONE</value>
   </parameter>
   <parameter>
     <key>java.vm.info</key>
@@ -290,15 +246,27 @@
   </parameter>
   <parameter>
     <key>java.class.version</key>
-    <value>67.0</value>
+    <value>65.0</value>
   </parameter>
   <parameter>
     <key>webdriver.http.factory</key>
     <value>jdk-http-client</value>
   </parameter>
   <parameter>
+    <key>setParallelMode</key>
+    <value>STATIC</value>
+  </parameter>
+  <parameter>
     <key>sun.jnu.encoding</key>
     <value>Cp1252</value>
+  </parameter>
+  <parameter>
+    <key>setPreserveOrder</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>disableLogging</key>
+    <value>false</value>
   </parameter>
   <parameter>
     <key>sun.stderr.encoding</key>
@@ -307,6 +275,10 @@
   <parameter>
     <key>file.separator</key>
     <value>\</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.compressedOopsMode</key>
+    <value>32-bit</value>
   </parameter>
   <parameter>
     <key>sun.stdout.encoding</key>
@@ -333,6 +305,18 @@
     <value>Oracle Corporation</value>
   </parameter>
   <parameter>
+    <key>sun.java.launcher</key>
+    <value>SUN_STANDARD</value>
+  </parameter>
+  <parameter>
+    <key>user.country</key>
+    <value>US</value>
+  </parameter>
+  <parameter>
+    <key>cucumber.snippet-type</key>
+    <value>underscore</value>
+  </parameter>
+  <parameter>
     <key>sun.cpu.endian</key>
     <value>little</value>
   </parameter>
@@ -353,6 +337,14 @@
     <value>LOGFILE</value>
   </parameter>
   <parameter>
+    <key>java.runtime.name</key>
+    <value>Java(TM) SE Runtime Environment</value>
+  </parameter>
+  <parameter>
+    <key>logger.app.name</key>
+    <value>org.apache.http.impl.client</value>
+  </parameter>
+  <parameter>
     <key>java.vendor.url.bug</key>
     <value>https://bugreport.java.com/bugreport/</value>
   </parameter>
@@ -361,8 +353,16 @@
     <value>D:\automation testing\shaft_project</value>
   </parameter>
   <parameter>
+    <key>appender.file.filter.threshold.level</key>
+    <value>debug</value>
+  </parameter>
+  <parameter>
+    <key>setDataProviderThreadCount</key>
+    <value>1</value>
+  </parameter>
+  <parameter>
     <key>java.vm.version</key>
-    <value>23.0.1+11-39</value>
+    <value>21.0.5+9-LTS-239</value>
   </parameter>
   <parameter>
     <key>cucumber.glue</key>

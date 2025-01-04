@@ -1,4 +1,7 @@
 {
   "username" : "Admin",
-  "password" : "admin123"
+  "password" : "admin123",
+  "employee_Username": "kerolosypised",
+  "new_employee_password" : "012345678910x",
+  "confirm_employee_password":"012345678910x"
 }
