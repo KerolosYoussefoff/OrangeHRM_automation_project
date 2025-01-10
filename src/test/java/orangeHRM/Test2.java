@@ -16,9 +16,9 @@ public class Test2 {
     public void testLoginAndNavigation() {
         // Perform login using credentials from test data
         new P01_loginPageStep(driver).loginSteps(
-                        testData.getTestData("username"), // Get username from test data
-                        testData.getTestData("password")) // Get password from test data
-                .selectAdminFromPanel(); // Navigate to the Admin page
+                        "", // Get username from test data
+                        "") // Get password from test data
+                .validateThatDidNotLoginDueToEmptyFields(); // Validate that the hme page didn't open due to empty fields
     }
 
     // Setup method to initialize the driver and load test data
