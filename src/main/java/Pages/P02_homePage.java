@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 public class P02_homePage {
     SHAFT.GUI.WebDriver driver;
     private static final Logger logger = LogManager.getLogger(P02_homePage.class);
-    private static final int TIMEOUT = 10; // Timeout in seconds
 
     // Constructor to initialize the driver
     public P02_homePage(SHAFT.GUI.WebDriver driver) {
